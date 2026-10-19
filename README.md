@@ -37,6 +37,8 @@ plutôt que de forcer une segmentation qui n'existe pas).
 
 ## 🗂️ Architecture
 
+🗺️ **[Schéma du dépôt (GitDiagram)](https://gitdiagram.com/valentinratigniet-byte/projet-17-rentabilite-produit-client)** : vue d'ensemble générée automatiquement à partir du code.
+
 ```mermaid
 flowchart LR
     A["Projet 07 (PostgreSQL)\nproduits, clients, commandes, paiements"] --> B["model.py\nallocation ABC : 3 pools, 3 inducteurs"]
