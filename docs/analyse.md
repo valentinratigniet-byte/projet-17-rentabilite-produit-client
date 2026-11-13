@@ -37,7 +37,7 @@ révélé ce problème : ces 9 produits pèsent trop peu dans le CA total pour
 apparaître dans un ratio global. L'ABC costing les isole précisément parce
 qu'il regarde l'activité réelle (le nombre de lignes traitées), pas le CA.
 
-**Mais l'ampleur reste modeste** : ~459 €/an de valeur détruite sur ces 9
+**Mais l'ampleur reste modeste** : ~459 € de valeur détruite sur les 2 ans de commandes de la base (~230 €/an) pour ces 9
 SKU, et les moyennes par catégorie restent stables entre 24,44 % et 24,50 %
 de marge nette — ce n'est pas un problème de catalogue, c'est un problème de
 9 SKU précis à traiter individuellement (revoir le prix, forcer un lot

@@ -161,7 +161,7 @@ def main() -> None:
     neg_p = [p for p in products if p["net_margin"] < 0]
     print(f"Rapport généré : {path.name}")
     print(f"  {len(neg_p)}/{len(products)} produits à marge nette négative "
-          f"({sum(-p['net_margin'] for p in neg_p):,.0f} € de valeur détruite/an)")
+          f"({sum(-p['net_margin'] for p in neg_p):,.0f} € de valeur détruite sur les 2 ans de commandes)")
 
 
 if __name__ == "__main__":
