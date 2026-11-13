@@ -172,6 +172,6 @@ if __name__ == "__main__":
     neg_products = [p for p in products if p["net_margin"] < 0]
     neg_clients = [c for c in clients if c["net_margin"] < 0]
     print(f"{len(products)} produits analysés, {len(neg_products)} à marge nette négative "
-          f"({sum(-p['net_margin'] for p in neg_products):,.0f} € de valeur détruite/an)")
+          f"({sum(-p['net_margin'] for p in neg_products):,.0f} € de valeur détruite sur les 2 ans de commandes)")
     print(f"{len(clients)} clients analysés, {len(neg_clients)} à marge nette négative "
-          f"({sum(-c['net_margin'] for c in neg_clients):,.0f} € de valeur détruite/an)")
+          f"({sum(-c['net_margin'] for c in neg_clients):,.0f} € de valeur détruite sur les 2 ans de commandes)")
